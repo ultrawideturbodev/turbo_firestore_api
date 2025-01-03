@@ -1,0 +1,25 @@
+name: turbo_firestore_api
+description: A clean and efficient approach to dealing with data from Firestore.
+version: 0.1.0
+homepage: https://github.com/ultrawideturbodev/turbo_firestore_api
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^5.6.0
+  firebase_auth: ^5.3.4
+  flutter:
+    sdk: flutter
+  informers: ^0.0.3+1
+  loglytics: ^0.14.1
+  rxdart: ^0.28.0
+  turbo_response: ^0.2.1
+
+dev_dependencies:
+  fake_cloud_firestore: ^3.1.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
